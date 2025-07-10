@@ -1,0 +1,116 @@
+
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #111;
+  color: #eee;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  padding-bottom: 50px;
+}
+
+header {
+  background: linear-gradient(to right, #00416a, #e4e5e6);
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+header h1 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.5em;
+}
+
+#about {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  background: #222;
+}
+
+#bioPic {
+  width: 250px;
+  border-radius: 50%;
+  border: 4px solid #444;
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.bio-text {
+  max-width: 600px;
+}
+
+#skills {
+  background: #333;
+  padding: 40px;
+  text-align: left;
+}
+
+#skills h2 {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.skillset {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-left: 20px;
+}
+
+.skill {
+  background: #444;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 150px;
+}
+
+.skill img.icon {
+  width: 64px;
+  margin-bottom: 10px;
+}
+
+#projects {
+  background: #222;
+  padding: 40px;
+  text-align: left;
+}
+
+#projects h2 {
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+
+.project {
+  background: #444;
+  margin: 20px 20px;
+  max-width: 600px;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+footer {
+  background: #111;
+  color: #888;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #4ca1af;
+  text-decoration: none;
+}
